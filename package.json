@@ -1,0 +1,56 @@
+{
+    "name": "troll-keyboard",
+    "displayName": "troll-keyboard",
+    "description": "Troll your friend, changing his/her VS Code most common shortcuts",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+z",
+                "command": "workbench.action.files.newUntitledFile"
+            },
+            {
+                "key": "ctrl+s",
+                "command": "editor.action.clipboardCutAction"
+            },
+            {
+                "key": "ctrl+n",
+                "command": "editor.action.addCommentLine"
+            },
+            {
+                "key": "ctrl+x",
+                "command": "workbench.action.debug.start"
+            },
+            {
+                "key": "ctrl+c",
+                "command": "editor.action.clipboardPasteAction"
+            },
+            {
+                "key": "ctrl+v",
+                "command": "editor.action.clipboardCopyAction"
+            },
+            {
+                "key": "ctrl+d",
+                "command": "editor.action.selectAll"
+            },
+            {
+                "key": "ctrl+a",
+                "command": "actions.find"
+            },
+            {
+                "key": "ctrl+f",
+                "command": "workbench.action.closeWindow"
+            },
+            {
+                "key": "backspace",
+                "command": "undo"
+            }
+        ]
+    }
+}
