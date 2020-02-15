@@ -6,7 +6,7 @@
     "engines": {
         "vscode": "^1.42.0"
     },
-    "icon": "./images/hueBr.png",
+    "icon": "images/hueBr.png",
     "publisher": "ericscaglioni",
     "categories": [
         "Keymaps"
