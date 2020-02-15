@@ -2,13 +2,19 @@
     "name": "troll-keyboard",
     "displayName": "troll-keyboard",
     "description": "Troll your friend, changing his/her VS Code most common shortcuts",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.42.0"
     },
+    "icon": "./images/hueBr.png",
+    "publisher": "ericscaglioni",
     "categories": [
         "Keymaps"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ericscaglioni/troll-keymap.git"
+    },
     "contributes": {
         "keybindings": [
             {
